@@ -19,8 +19,10 @@ variable "addons" {
       version = "v1.10.1-eksbuild.7"
     },
     {
-      name    = "aws-ebs-csi-driver"
-      version = "v1.26.1-eksbuild.1"
+      name    = "eks-pod-identity-agent"
+      version = "v1.1.0-eksbuild.1"
+      //name    = "aws-ebs-csi-driver"
+      //version = "v1.26.1-eksbuild.1"
     }
   ]
 
